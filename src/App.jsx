@@ -5,7 +5,7 @@ import Register from './pages/Register/Register'
 
 import {Routes,Route} from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
+  console.log(import.meta.env.VITE_FB_APIKEY)
 
   return (
     <>
